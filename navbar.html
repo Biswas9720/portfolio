@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .nav {
+        padding: 32px;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav a {
+        text-decoration: antiquewhite;
+        color: brown;
+        text-transform: uppercase;
+      }
+      .nav-items {
+        display: flex;
+        gap: 32px;
+        list-style: none;
+      }
+      .logo {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 24px;
+      }
+      .nav-items a {
+        font-size: 17px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .nav-items a:hover {
+        color: rgb(222, 206, 222);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="#" class="logo">logo</a>
+      <ul class="nav-items">
+        <li><a href="background.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">bloges</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
